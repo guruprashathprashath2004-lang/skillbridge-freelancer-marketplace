@@ -1,0 +1,14 @@
+# Private config (copy from the *.example.php files)
+config/db.php
+config/payhere.php
+config/stripe.php
+
+# User uploaded files
+*/assets/uploads/avatars/*
+!*/assets/uploads/avatars/.gitkeep
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
